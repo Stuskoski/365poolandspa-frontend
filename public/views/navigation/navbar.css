@@ -70,12 +70,13 @@ body > .container {
 
 /* Navigation links and group for the navbar*/
 .nav-header-group{
-
+    float: right;
+    margin-right: 10em;
+    width: 500px !important;
 }
 
 .nav-header-number{
-    float: right;
-    margin-right: 5%;
+    right: 0;
 }
 
 .nav-header-links{

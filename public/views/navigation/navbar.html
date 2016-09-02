@@ -12,82 +12,61 @@
                 <img ng-src="/images/365-pool-spa-logo.png" class="header-image" alt="365-logo">
             </a>
         </div>
-
-
-        <div>
-            <!-- Single button with keyboard nav -->
-            <div class="btn-group" uib-dropdown keyboard-nav>
-                <button id="simple-btn-keyboard-nav" type="button" class="btn btn-primary" uib-dropdown-toggle>
-                    Dropdown with keyboard navigation <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="simple-btn-keyboard-nav">
-                    <li role="menuitem"><a href="#">Action</a></li>
-                    <li role="menuitem"><a href="#">Another action</a></li>
-                    <li role="menuitem"><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li role="menuitem"><a href="#">Separated link</a></li>
-                </ul>
-            </div>
-        </div>
-
-
-
-
-
-        <div class="nav-header-group">
-
-            <div class="nav-header-number">
-                <h1>Call (210) 277-8281</h1>
-            </div>
-
-            <div class="nav-header-links navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-
-                    <li class="active"><a ng-href="#/">Home</a></li>
-
-                    <li class="dropdown" dropdown>
-                        <a ng-href=""
-                           class="dropdown-toggle">About 365
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a ng-href="chemicals-supplies">CHEMICALS & SUPPLIES</a></li>
-                            <li><a ng-href="equipment-filters">EQUIPMENT & FILTERS</a></li>
-                            <li><a ng-href="service-repair">SERVICE & REPAIR</a></li>
-                            <li><a ng-href="replace-parts">GENUINE REPLACEMENT PARTS</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a ng-href="location">Locations</a></li>
-
-
-                    <li class="dropdown">
-                        <a ng-href=""
-                           class="dropdown-toggle"
-                           data-toggle="dropdown"
-                           role="button"
-                           aria-haspopup="true"
-                           aria-expanded="false">Contact
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a ng-href="testimonials">Testimonials</a></li>
-                            <li><a ng-href="employment">Employment</a></li>
-                        </ul>
-                    </li>
-
-                </ul>
-            </div>
-
-
-
-
-        <nav id="site-navigation" class="main-navigation" role="navigation">
-
-        </nav><!-- #site-navigation -->
-
-        <div id="clear"></div>
-
-        </div>
     </div>
+
+
+    <div class="nav-header-group">
+
+        <div class="nav-header-number">
+            Call (210) 277-8281
+        </div>
+
+        <div id="dropdown-scrollable-container" class="nav-header-links" style="height: 15em; overflow: auto;">
+            <div id="dropdown-long-content">
+                <div id="dropdown-hidden-container">
+
+
+                    <div class="active btn-group"><a ng-href="/">Home</a></div>
+
+
+                    <div class="btn-group" uib-dropdown keyboard-nav>
+                        <button id="btn-append-to" uib-dropdown-toggle>
+                            About 365 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="btn-append-to">
+                            <li role="menuitem"><a href="chemicals-supplies">CHEMICALS & SUPPLIES</a></li>
+                            <li role="menuitem"><a href="equipment-filters">EQUIPMENT & FILTERS</a></li>
+                            <li role="menuitem"><a href="service-repair">SERVICE & REPAIR</a></li>
+                            <li role="menuitem"><a href="replace-parts">GENUINE REPLACEMENT PARTS</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="btn-group"><a ng-href="locations">Locations</a></div>
+
+
+                    <div class="btn-group" uib-dropdown keyboard-nav>
+                        <button id="btn-append-to-to-body" uib-dropdown-toggle>
+                            Contact <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="btn-append-to-to-body">
+                            <li role="menuitem"><a href="testimonials">TESTIMONIALS</a></li>
+                            <li role="menuitem"><a href="employment">EMPLOYMENT</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
 
 </header>
 
