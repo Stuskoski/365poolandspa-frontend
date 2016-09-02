@@ -1,0 +1,91 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    padding-top: 60px;
+
+    background: #22a9e1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,  #22a9e1 0%,#a9e6ff 50%,#0696d2 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  #22a9e1 0%,#a9e6ff 50%,#0696d2 100%)/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*background:url("/public/images/bg.jpg") repeat-x #e4e9ec top;*/
+    /*padding:0;*/
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    /*font-size:11px;*/
+    /*margin:0px auto auto auto;*/
+    /*color:#000;*/
+}
+@media (max-width: 979px) {
+    body {
+        padding-top: 0px;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header-image{
+    width: 100% !important;
+    max-width: 244px !important;
+    height: auto!important;
+    float: left;
+
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+.site-header{
+    background-image: url('/images/header-bottom.jpg');
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-color: #ffffff;
+    height: 100px;
+    padding-top: 0px;
+    margin-bottom: 0px !important;
+}
+
+
+/* Navigation links and group for the navbar*/
+.nav-header-group{
+
+}
+
+.nav-header-number{
+    float: right;
+    margin-right: 5%;
+}
+
+.nav-header-links{
+
+}
+
+.nav-custom{
+    border-width: 0 0 0px;
+}
+
+.padding-top-60px{
+    padding-top: 60px;
+}

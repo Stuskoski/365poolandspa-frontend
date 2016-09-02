@@ -1,0 +1,23 @@
+// Relative source roots: 'webroot', 'js/default', 'node_modules'
+
+// Utils
+
+// Vendors
+@import "css/bootstrap.css";
+@import "css/bootstrap-theme.css";
+@import 'css/ngDialog.min.css';
+@import 'css/ngDialog-theme-default.min.css';
+@import 'css/ngDialog-theme-plain.min.css';
+@import 'css/ui-bootstrap-csp.css';
+
+// Base
+@import 'sass/base/reset';
+@import 'sass/base/settings';
+
+// Components
+
+// Directives
+
+// Views
+@import 'views/home/home.css';
+@import 'views/navigation/navbar.css';
